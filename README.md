@@ -114,15 +114,15 @@ AVERAGE(Orders[Discount])
 
 ### Executive Sales Dashboard
 
-![Executive Sales Dashboard](Dashboard%20Screenshots/Executive_Sales_Dashboard.png)
+![Executive Sales Dashboard](Executive%20Sales%20Dashboard.png)
 
 ### Customer Analysis Dashboard
 
-![Customer Analysis Dashboard](Dashboard%20Screenshots/Customer_Analysis_Dashboard.png)
+![Customer Analysis Dashboard](Customer%20Analysis%20Dashboard.png)
 
 ### Profit Analysis Dashboard
 
-![Profit Analysis Dashboard](Dashboard%20Screenshots/Profit_Analysis_Dashboard.png)
+![Profit Analysis Dashboard](Profit%20Analysis%20Dashboard.png)
 
 ---
 
