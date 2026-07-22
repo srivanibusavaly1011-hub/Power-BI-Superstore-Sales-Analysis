@@ -95,8 +95,6 @@ Key activities included:
 
 ---
 
-## 📐 Key DAX Measures
-
 ```DAX
 Total Sales = SUM(Orders[Sales])
 
