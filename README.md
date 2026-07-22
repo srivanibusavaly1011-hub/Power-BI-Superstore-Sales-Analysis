@@ -108,6 +108,7 @@ Key data preparation activities included:
 
 ### Executive Sales Dashboard
 
+![Executive Sales Dashboard](Dashboard%20Screenshots/Executive_Sales_Dashboard.png)
 
 ### Customer Analysis Dashboard
 
