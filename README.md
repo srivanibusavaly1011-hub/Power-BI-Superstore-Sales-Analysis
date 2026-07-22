@@ -1,10 +1,12 @@
-# Power BI Superstore Sales Analysis Dashboard
+# 📊 Power BI Superstore Sales Analysis Dashboard
 
-## 📊 Project Overview
+## 📌 Project Overview
 
-This project is an interactive Power BI dashboard created using the Superstore dataset. The objective of this project is to analyze sales performance, customer behavior, profitability, products, regions, and business trends.
+This project is an interactive Power BI dashboard created using the Sample Superstore dataset.
 
-The dashboard consists of three analytical pages:
+The objective is to analyze sales performance, customer behavior, regional performance, product performance, and profitability to support data-driven business decisions.
+
+The dashboard contains three pages:
 
 - Executive Sales Dashboard
 - Customer Analysis Dashboard
@@ -18,16 +20,16 @@ The dashboard consists of three analytical pages:
 - Power Query
 - DAX
 - Microsoft Excel
+- Data Cleaning
 - Data Visualization
-- Data Cleaning and Transformation
 
 ---
 
-## 📌 Dashboard Pages
+## 📊 Dashboard Pages
 
 ### 1. Executive Sales Dashboard
 
-Provides an overview of overall business performance, including:
+Analyzes overall business performance, including:
 
 - Total Sales
 - Total Profit
@@ -35,7 +37,7 @@ Provides an overview of overall business performance, including:
 - Total Quantity
 - Sales by Category
 - Sales by Region
-- Top 10 Products by Sales
+- Top 10 Products
 - Sales by Sub-Category
 - Monthly Sales Trend
 
@@ -47,8 +49,7 @@ Analyzes customer and order performance:
 - Total Orders
 - Average Sales
 - Average Profit
-- Orders by Region
-- Top 10 Customers by Sales
+- Top Customers by Sales
 - Top Customers by Profit
 - Sales by Segment
 - Sales vs Profit by Customer
@@ -73,28 +74,28 @@ Focuses on profitability and loss analysis:
 
 The data was cleaned and transformed using Power Query.
 
-Key data preparation activities included:
+Key activities included:
 
 - Promoting headers
 - Changing data types
 - Handling date fields
 - Preparing data for analysis
-- Creating calculated measures using DAX
+- Creating DAX measures
 
 ---
 
 ## 👩‍💻 My Role
 
 - Cleaned and transformed data using Power Query
-- Created DAX measures for KPIs and business analysis
+- Created DAX measures for KPIs
 - Designed interactive Power BI dashboards
 - Analyzed sales, customer, product, regional, and profitability trends
 - Created interactive slicers and page navigation
 - Derived business insights and recommendations
 
-  ---
+---
 
-  ## 📐 Key DAX Measures
+## 📐 Key DAX Measures
 
 ```DAX
 Total Sales = SUM(Orders[Sales])
@@ -107,41 +108,22 @@ DIVIDE([Total Profit], [Total Sales])
 Average Discount =
 AVERAGE(Orders[Discount])
 
-----
-
-## 📈 Key Business Insights
-
-- Technology generated the highest profit among the categories.
-- Furniture showed comparatively lower profitability.
-- Some products generated significant losses.
-- Profitability varies across products and sub-categories.
-- Discount levels can impact overall profitability.
-- Customer and regional performance vary significantly.
-
 ---
 
-## 💡 Business Recommendations
-
-- Review heavily discounted products that generate losses.
-- Focus on high-performing categories and products.
-- Analyze low-profit products to improve pricing strategies.
-- Monitor customer profitability, not only sales.
-- Use regional performance analysis to improve business decisions.
-
----
-## 📷 Dashboard Preview
+## 📊 Dashboard Preview
 
 ### Executive Sales Dashboard
 
-![Executive Sales Dashboard](Executive%20Sales%20Dashboard.png)
+![Executive Sales Dashboard](Dashboard%20Screenshots/Executive_Sales_Dashboard.png)
 
 ### Customer Analysis Dashboard
 
-![Customer Analysis Dashboard](Customer%20Analysis%20Dashboard.png)
+![Customer Analysis Dashboard](Dashboard%20Screenshots/Customer_Analysis_Dashboard.png)
 
 ### Profit Analysis Dashboard
 
-![Profit Analysis Dashboard](Profit%20Analysis%20Dashboard.png)
+![Profit Analysis Dashboard](Dashboard%20Screenshots/Profit_Analysis_Dashboard.png)
+
 ---
 
 ## 👩‍💻 Author
@@ -149,3 +131,5 @@ AVERAGE(Orders[Discount])
 Srivani
 
 Skills: Power BI | SQL | Excel | Python
+
+
