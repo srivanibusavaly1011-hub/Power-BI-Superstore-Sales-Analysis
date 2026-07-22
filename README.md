@@ -83,6 +83,32 @@ Key data preparation activities included:
 
 ---
 
+## 👩‍💻 My Role
+
+- Cleaned and transformed data using Power Query
+- Created DAX measures for KPIs and business analysis
+- Designed interactive Power BI dashboards
+- Analyzed sales, customer, product, regional, and profitability trends
+- Created interactive slicers and page navigation
+- Derived business insights and recommendations
+
+  ---
+
+  ## 📐 Key DAX Measures
+
+```DAX
+Total Sales = SUM(Orders[Sales])
+
+Total Profit = SUM(Orders[Profit])
+
+Profit Margin =
+DIVIDE([Total Profit], [Total Sales])
+
+Average Discount =
+AVERAGE(Orders[Discount])
+
+----
+
 ## 📈 Key Business Insights
 
 - Technology generated the highest profit among the categories.
