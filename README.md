@@ -1,99 +1,122 @@
-# 📊 Power BI Superstore Sales Analysis Dashboard
+# 📊 Power BI Superstore Sales Analysis
 
 ## 📌 Project Overview
 
-This project is an interactive Power BI dashboard created using the Sample Superstore dataset.
+This project presents an interactive **Power BI Sales Analysis Dashboard** created using the Superstore dataset.
 
-The objective is to analyze sales performance, customer behavior, regional performance, product performance, and profitability to support data-driven business decisions.
-
-The dashboard contains three pages:
-
-- Executive Sales Dashboard
-- Customer Analysis Dashboard
-- Profit Analysis Dashboard
+The objective of this project is to analyze sales performance, profitability, customers, products, regions, categories, and sub-categories to generate meaningful business insights and support data-driven decision-making.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - Power BI
-- Power Query
+- SQL
+- Excel
 - DAX
-- Microsoft Excel
-- Data Cleaning
-- Data Visualization
+- Python
+
+---
+
+## 📂 Dataset
+
+The dataset used for this project is the **Superstore Sales Dataset**.
+
+The dataset contains information about:
+
+- Orders
+- Customers
+- Products
+- Categories
+- Sub-Categories
+- Sales
+- Profit
+- Discount
+- Quantity
+- Regions
+- Segments
+- Order Dates
 
 ---
 
 ## 📊 Dashboard Pages
 
-### 1. Executive Sales Dashboard
+### 1️⃣ Executive Sales Dashboard
 
-Analyzes overall business performance, including:
+This dashboard provides an overview of the overall sales performance.
+
+### Key KPIs:
 
 - Total Sales
 - Total Profit
 - Total Orders
 - Total Quantity
+
+### Key Analysis:
+
+- Top 10 Products by Sales
 - Sales by Category
 - Sales by Region
-- Top 10 Products
 - Sales by Sub-Category
 - Monthly Sales Trend
 
-### 2. Customer Analysis Dashboard
+---
 
-Analyzes customer and order performance:
+### 2️⃣ Customer Analysis Dashboard
+
+This dashboard focuses on customer performance and customer-level insights.
+
+### Key KPIs:
 
 - Total Customers
 - Total Orders
-- Average Sales
 - Average Profit
-- Top Customers by Sales
+- Average Sales
+
+### Key Analysis:
+
+- Orders by Region
+- Top 10 Customers by Sales
 - Top Customers by Profit
 - Sales by Segment
 - Sales vs Profit by Customer
 
-### 3. Profit Analysis Dashboard
+---
 
-Focuses on profitability and loss analysis:
+### 3️⃣ Profit Analysis Dashboard
+
+This dashboard focuses on profitability and loss-making products.
+
+### Key KPIs:
 
 - Total Profit
 - Profit Margin
 - Average Discount
 - Loss-Making Products
+
+### Key Analysis:
+
+- Monthly Profit Trend
 - Profit by Category
-- Profit by Sub-Category
 - Top 10 Profitable Products
 - Top 10 Loss-Making Products
-- Monthly Profit Trend
+- Profit by Sub-Category
 
 ---
 
-## 🔄 Data Preparation
+## 📈 Key Business Insights
 
-The data was cleaned and transformed using Power Query.
-
-Key activities included:
-
-- Promoting headers
-- Changing data types
-- Handling date fields
-- Preparing data for analysis
-- Creating DAX measures
+- Technology generated the highest profit among the major categories.
+- Office Supplies also contributed significantly to overall profitability.
+- Some products generated negative profits and require further investigation.
+- A small number of products contributed significantly to total sales.
+- Profitability varies across different regions and customer segments.
+- High discounts can negatively impact product profitability.
+- Monthly profit trends help identify periods of strong and weak performance.
 
 ---
 
-## 👩‍💻 My Role
-
-- Cleaned and transformed data using Power Query
-- Created DAX measures for KPIs
-- Designed interactive Power BI dashboards
-- Analyzed sales, customer, product, regional, and profitability trends
-- Created interactive slicers and page navigation
-- Derived business insights and recommendations
-
----
+## 🧮 DAX Measures
 
 ```DAX
 Total Sales = SUM(Orders[Sales])
@@ -105,10 +128,29 @@ DIVIDE([Total Profit], [Total Sales])
 
 Average Discount =
 AVERAGE(Orders[Discount])
+```
 
 ---
 
-## 📊 Dashboard Preview
+## 👩‍💻 My Role – Data Analyst
+
+As a Data Analyst, I worked on this project to transform raw sales data into meaningful business insights.
+
+My responsibilities included:
+
+- Cleaning and preparing the dataset for analysis.
+- Performing data analysis using SQL and Excel.
+- Creating data models and relationships in Power BI.
+- Developing DAX measures for KPIs such as Sales, Profit, Profit Margin, and Average Discount.
+- Designing interactive dashboards and reports using Power BI.
+- Analyzing sales, profit, customers, products, regions, categories, and sub-categories.
+- Identifying top-performing and loss-making products.
+- Creating monthly sales and profit trend analysis.
+- Generating insights to support data-driven business decisions.
+
+  ---
+
+## 📸 Dashboard Preview
 
 ### Executive Sales Dashboard
 
@@ -124,10 +166,24 @@ AVERAGE(Orders[Discount])
 
 ---
 
+## 📁 Project Files
+
+- `Superstore_Sales_Analysis.pbix` – Power BI Dashboard
+- `sample_-_superstore.xls` – Dataset
+- `Executive Sales Dashboard.png` – Executive Sales Dashboard Screenshot
+- `Customer Analysis Dashboard.png` – Customer Analysis Dashboard Screenshot
+- `Profit Analysis Dashboard.png` – Profit Analysis Dashboard Screenshot
+
+---
+
 ## 👩‍💻 Author
 
-Srivani
+**Srivani**
 
-Skills: Power BI | SQL | Excel | Python
+### Skills
 
+Power BI | SQL | Excel | Python
 
+---
+
+⭐ If you find this project useful, feel free to explore the repository.
